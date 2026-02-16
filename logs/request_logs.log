@@ -405,3 +405,28 @@
 2025-10-30 15:10:45,199 - INFO - IP: 127.0.0.1  Role: Bronze user  Method: GET  Time: 2025-10-30 15:10:45.184193+00:00
 2025-10-30 15:10:45,795 - WARNING - BLOCKED: 127.0.0.1 (Bronze user) exceeded rate limit.
 2025-10-30 15:10:54,855 - WARNING - BLOCKED: 127.0.0.1 (Bronze user) exceeded rate limit.
+2026-02-16 15:32:23,793 - INFO - IP: 127.0.0.1  Role: Unauthenticated user  Method: GET  Time: 2026-02-16 10:32:23.785485+00:00
+2026-02-16 15:32:23,873 - INFO - IP: 127.0.0.1  Role: Unauthenticated user  Method: GET  Time: 2026-02-16 10:32:23.865216+00:00
+2026-02-16 15:32:24,491 - INFO - IP: 127.0.0.1  Role: Unauthenticated user  Method: GET  Time: 2026-02-16 10:32:24.484320+00:00
+2026-02-16 15:33:50,128 - INFO - IP: 127.0.0.1  Role: Unauthenticated user  Method: GET  Time: 2026-02-16 10:33:50.116821+00:00
+2026-02-16 15:33:50,951 - INFO - IP: 127.0.0.1  Role: Unauthenticated user  Method: GET  Time: 2026-02-16 10:33:50.944763+00:00
+2026-02-16 15:33:51,801 - INFO - IP: 127.0.0.1  Role: Unauthenticated user  Method: GET  Time: 2026-02-16 10:33:51.794222+00:00
+2026-02-16 15:33:52,610 - INFO - IP: 127.0.0.1  Role: Unauthenticated user  Method: GET  Time: 2026-02-16 10:33:52.601518+00:00
+2026-02-16 15:33:53,423 - INFO - IP: 127.0.0.1  Role: Unauthenticated user  Method: GET  Time: 2026-02-16 10:33:53.414705+00:00
+2026-02-16 15:33:54,086 - WARNING - BLOCKED: 127.0.0.1 (Unauthenticated user) exceeded rate limit.
+2026-02-16 15:55:46,501 - INFO - IP: 127.0.0.1  Role: Unauthenticated user  Method: GET  Time: 2026-02-16 10:55:46.492956+00:00
+2026-02-16 15:55:46,520 - INFO - IP: 127.0.0.1  Role: Unauthenticated user  Method: GET  Time: 2026-02-16 10:55:46.510688+00:00
+2026-02-16 15:55:47,114 - INFO - IP: 127.0.0.1  Role: Unauthenticated user  Method: GET  Time: 2026-02-16 10:55:47.102723+00:00
+2026-02-16 15:55:52,002 - INFO - IP: 127.0.0.1  Role: Unauthenticated user  Method: GET  Time: 2026-02-16 10:55:51.994396+00:00
+2026-02-16 15:55:52,441 - INFO - IP: 127.0.0.1  Role: Unauthenticated user  Method: GET  Time: 2026-02-16 10:55:52.432801+00:00
+2026-02-16 15:55:52,987 - WARNING - BLOCKED: 127.0.0.1 (Unauthenticated user) exceeded rate limit.
+2026-02-16 15:55:53,413 - WARNING - BLOCKED: 127.0.0.1 (Unauthenticated user) exceeded rate limit.
+2026-02-16 15:58:30,060 - INFO - IP: 127.0.0.1  Role: Unauthenticated user  Method: GET  Time: 2026-02-16 10:58:30.050191+00:00
+2026-02-16 15:58:41,879 - INFO - IP: 127.0.0.1  Role: Unauthenticated user  Method: GET  Time: 2026-02-16 10:58:41.870639+00:00
+2026-02-16 15:58:42,711 - INFO - IP: 127.0.0.1  Role: Unauthenticated user  Method: GET  Time: 2026-02-16 10:58:42.704455+00:00
+2026-02-16 15:58:43,344 - INFO - IP: 127.0.0.1  Role: Unauthenticated user  Method: GET  Time: 2026-02-16 10:58:43.335505+00:00
+2026-02-16 15:58:44,102 - INFO - IP: 127.0.0.1  Role: Unauthenticated user  Method: GET  Time: 2026-02-16 10:58:44.093412+00:00
+2026-02-16 15:58:44,882 - WARNING - BLOCKED: 127.0.0.1 (Unauthenticated user) exceeded rate limit.
+2026-02-16 16:26:26,932 - INFO - {'timestamp': '2026-02-16T11:26:26.923343+00:00', 'ip_address': '127.0.0.1', 'user': {'is_authenticated': False, 'role': RoleChoice.Unauthenticated_user}, 'request': {'method': 'GET', 'path': '/accounts/login/'}, 'rate_limit': {'limit': 5, 'window_seconds': 60, 'current_count': 1}, 'event': 'allowed'}
+2026-02-16 16:26:29,975 - INFO - {'timestamp': '2026-02-16T11:26:29.968328+00:00', 'ip_address': '127.0.0.1', 'user': {'is_authenticated': False, 'role': RoleChoice.Unauthenticated_user}, 'request': {'method': 'GET', 'path': '/accounts/login/'}, 'rate_limit': {'limit': 5, 'window_seconds': 60, 'current_count': 2}, 'event': 'allowed'}
+2026-02-16 16:26:30,807 - INFO - {'timestamp': '2026-02-16T11:26:30.797780+00:00', 'ip_address': '127.0.0.1', 'user': {'is_authenticated': False, 'role': RoleChoice.Unauthenticated_user}, 'request': {'method': 'GET', 'path': '/accounts/login/'}, 'rate_limit': {'limit': 5, 'window_seconds': 60, 'current_count': 3}, 'event': 'allowed'}
